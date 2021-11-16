@@ -19,6 +19,7 @@
 		6092636C2481E98500D8F593 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6092636B2481E98500D8F593 /* SceneDelegate.swift */; };
 		609263712481E98500D8F593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6092636F2481E98500D8F593 /* Main.storyboard */; };
 		609263762481E98600D8F593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609263742481E98600D8F593 /* LaunchScreen.storyboard */; };
+		BF7E4034274380C500D3B2AC /* JsonLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E4033274380C500D3B2AC /* JsonLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +31,7 @@
 		3013B18F248708D5002881BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/Intents.intentdefinition; sourceTree = "<group>"; };
 		3013B193248721B9002881BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		305594912493EF9500C8E389 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
-		54032226B24567814BD1CD63 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		54032226B24567814BD1CD63 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		609263662481E98500D8F593 /* RecipeAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		609263692481E98500D8F593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6092636B2481E98500D8F593 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +40,8 @@
 		609263772481E98600D8F593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60A8438526263126000ADAE9 /* RecipeAssistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RecipeAssistant.entitlements; sourceTree = "<group>"; };
 		8B739E206457DB37776DCCA6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F3B442E20DFE0637B2C796FA /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		BF7E4033274380C500D3B2AC /* JsonLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonLoader.swift; sourceTree = "<group>"; };
+		F3B442E20DFE0637B2C796FA /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				3055949824958C2D00C8E389 /* Intent Handler */,
 				3055949724958C0800C8E389 /* Model */,
 				3055949624958BF400C8E389 /* View Controllers */,
+				BF7E4032274380B300D3B2AC /* Helpers */,
 				6092636F2481E98500D8F593 /* Main.storyboard */,
 				3013B193248721B9002881BC /* Assets.xcassets */,
 				3013B18E248708D5002881BC /* Intents.intentdefinition */,
@@ -130,8 +133,15 @@
 			children = (
 				54032226B24567814BD1CD63 /* LICENSE.txt */,
 			);
-			name = LICENSE;
 			path = LICENSE;
+			sourceTree = "<group>";
+		};
+		BF7E4032274380B300D3B2AC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E4033274380C500D3B2AC /* JsonLoader.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		D63F6C0A84667F95E2E34634 /* Configuration */ = {
@@ -217,6 +227,7 @@
 				3013B1802486E78F002881BC /* AppIntentHandler.swift in Sources */,
 				3013B190248708D5002881BC /* Intents.intentdefinition in Sources */,
 				3013B1812486E78F002881BC /* RecipesTableViewController.swift in Sources */,
+				BF7E4034274380C500D3B2AC /* JsonLoader.swift in Sources */,
 				3013B17A2486E78F002881BC /* RecipeDirectionsViewController.swift in Sources */,
 				3013B18C2486E7AC002881BC /* RecipeBook.swift in Sources */,
 				3013B1822486E78F002881BC /* RecipeDetailViewController.swift in Sources */,
