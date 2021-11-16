@@ -815,10 +815,6 @@
 			<true/>
 			<key>INIntentDescriptionID</key>
 			<string>CqhqgQ</string>
-			<key>INIntentInput</key>
-			<string>restaurant</string>
-			<key>INIntentKeyParameter</key>
-			<string>restaurant</string>
 			<key>INIntentLastParameterTag</key>
 			<integer>10</integer>
 			<key>INIntentManagedParameterCombinations</key>
@@ -831,6 +827,17 @@
 					<string>Order from ${restaurant} ${quantity} ${dish}</string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>H0dBs1</string>
+					<key>INIntentParameterCombinationUpdatesLinked</key>
+					<true/>
+				</dict>
+				<key>quantity,restaurant</key>
+				<dict>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Order ${quantity}</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>1UHmiH</string>
 					<key>INIntentParameterCombinationUpdatesLinked</key>
 					<true/>
 				</dict>
@@ -849,6 +856,17 @@
 					<string>Order from ${restaurant} ${quantity} ${dish}</string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>ytwpBI</string>
+				</dict>
+				<key>quantity,restaurant</key>
+				<dict>
+					<key>INIntentParameterCombinationIsLinked</key>
+					<true/>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Order ${quantity}</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>Ya7P40</string>
 				</dict>
 			</dict>
 			<key>INIntentParameters</key>
@@ -1070,13 +1088,20 @@
 							<key>INIntentParameterPromptDialogCustom</key>
 							<true/>
 							<key>INIntentParameterPromptDialogFormatString</key>
-							<string>Just to confirm, you wanted ${dish}’?</string>
+							<string>Just to confirm, you wanted ${dish}?</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
 							<string>g5s1JR</string>
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Confirmation</string>
 						</dict>
 					</array>
+					<key>INIntentParameterRelationship</key>
+					<dict>
+						<key>INIntentParameterRelationshipParentName</key>
+						<string>restaurant</string>
+						<key>INIntentParameterRelationshipPredicateName</key>
+						<string>HasAnyValue</string>
+					</dict>
 					<key>INIntentParameterSupportsDynamicEnumeration</key>
 					<true/>
 					<key>INIntentParameterSupportsResolution</key>
