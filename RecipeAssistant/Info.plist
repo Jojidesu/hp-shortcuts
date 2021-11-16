@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Recipe Assistant</string>
+	<string>Hunting Party</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -23,6 +23,8 @@
 	<key>INIntentsSupported</key>
 	<array>
 		<string>ShowDirectionsIntent</string>
+		<string>SelectRestaurantIntent</string>
+		<string>OrderFoodIntent</string>
 	</array>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.food-and-drink</string>
@@ -30,6 +32,11 @@
 	<true/>
 	<key>NSUserActivityTypes</key>
 	<array>
+		<string>OrderFoodIntent</string>
+		<string>SelectCategoryIntent</string>
+		<string>SelectDishIntent</string>
+		<string>SelectQuantityIntent</string>
+		<string>SelectRestaurantIntent</string>
 		<string>ShowDirectionsIntent</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>

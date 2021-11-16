@@ -8,6 +8,7 @@ class JsonLoader {
       let json = try loadData(for: fileName)
       return try JSONDecoder().decode(T.self, from: json)
     } catch {
+      print(String(describing: error))
       fatalError("Decoding operation is failed -> \(error.localizedDescription)!!!")
     }
   }

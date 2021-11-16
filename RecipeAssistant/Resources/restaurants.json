@@ -1,0 +1,169 @@
+{
+    "restaurants": [
+        {
+            "restaurant_name": "Starbucks",
+            "address": "West City Mall #01-03",
+            "id": "143",
+            "promotion": "Get 25% off with minimum order of 20$",
+            "categories": [
+                {
+                    "id": "cat1",
+                    "name": "Cold Drinks",
+                    "items": [
+                        {
+                            "id": "item1",
+                            "name": "Vanilla Latte",
+                            "price": "6.5"
+                        },
+                        {
+                            "id": "item2",
+                            "name": "Peppermint Moccha",
+                            "price": "5.5"
+                        },
+                        {
+                            "id": "item3",
+                            "name": "Green Tea Frapuccino",
+                            "price": "7"
+                        },
+                        {
+                            "id": "item4",
+                            "name": "Caramel Macchiato",
+                            "price": "4.3"
+                        }
+                    ]
+                },
+                {
+                    "id": "cat2",
+                    "name": "Hot Drinks",
+                    "items": [
+                        {
+                            "id": "item5",
+                            "name": "Hot Chocolate",
+                            "price": "4.5"
+                        },
+                        {
+                            "id": "item6",
+                            "name": "Espresso",
+                            "price": "4"
+                        },
+                        {
+                            "id": "item7",
+                            "name": "Caffe Americano",
+                            "price": "5"
+                        },
+                        {
+                            "id": "item8",
+                            "name": "Cappucino",
+                            "price": "4.3"
+                        }
+                    ]
+                },
+                {
+                    "id": "cat3",
+                    "name": "Food",
+                    "items": [
+                        {
+                            "id": "item9",
+                            "name": "Ham & Cheese Wrap",
+                            "price": "6.8"
+                        },
+                        {
+                            "id": "item10",
+                            "name": "Cheese Bagel",
+                            "price": "5.3"
+                        },
+                        {
+                            "id": "item11",
+                            "name": "Sausage Roll",
+                            "price": "4.5"
+                        },
+                        {
+                            "id": "item12",
+                            "name": "Chicken Pie",
+                            "price": "5.3"
+                        },
+                        {
+                            "id": "item13",
+                            "name": "Mushroom & Egg Wrap",
+                            "price": "7.2"
+                        }
+                    ]
+                },
+                {
+                    "id": "cat4",
+                    "name": "Dessert",
+                    "items": [
+                        {
+                            "id": "item14",
+                            "name": "Carrot Cake",
+                            "price": "4"
+                        },
+                        {
+                            "id": "item15",
+                            "name": "New York Cheesecake",
+                            "price": "4.5"
+                        },
+                        {
+                            "id": "item16",
+                            "name": "Blueberry Scone",
+                            "price": "3.2"
+                        },
+                        {
+                            "id": "item17",
+                            "name": "Chocolate Tart",
+                            "price": "5.3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "restaurant_name": "Flax Curry Cafe",
+            "address": "1 Woodlands Ave 2 #01-121",
+            "id": "2",
+            "cuisine_type": [
+                "Curry",
+                "Singaporean",
+                "Local"
+            ],
+            "categories": [],
+            "promotion": ""
+        },
+        {
+            "restaurant_name": "Prego",
+            "address": "Parkway Hotel #02-03",
+            "id": "3",
+            "cuisine_type": [
+                "Italian",
+                "Pizza",
+                "Pasta"
+            ],
+            "categories": [],
+            "promotion": ""
+        },
+        {
+            "restaurant_name": "Yishun Park Hawker Centre",
+            "address": "Yishun Avenue 2 #03-100",
+            "id": "4",
+            "cuisine_type": [
+                "Local",
+                "Hawker",
+                "Food Court",
+                "Western"
+            ],
+            "categories": [],
+            "promotion": ""
+        },
+        {
+            "restaurant_name": "John's Burger Bar",
+            "address": "Sembawang Shopping Centre #02-01",
+            "id": "5",
+            "cuisine_type": [
+                "Western",
+                "Burger"
+            ],
+            "categories": [],
+            "promotion": ""
+        }
+    ]
+}

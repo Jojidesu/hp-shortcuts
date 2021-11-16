@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		293DB5CA27439E05007E7E68 /* RestaurantIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293DB5C927439E05007E7E68 /* RestaurantIntentHandler.swift */; };
+		293DB5CC2743B838007E7E68 /* OrderFoodIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293DB5CB2743B838007E7E68 /* OrderFoodIntentHandler.swift */; };
+		29B708AB27438571006B6108 /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 29B708AA27438571006B6108 /* restaurants.json */; };
+		29B708B1274386DE006B6108 /* RestaurantBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B708B0274386DE006B6108 /* RestaurantBook.swift */; };
+		29B708B3274386EF006B6108 /* CategoryBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B708B2274386EF006B6108 /* CategoryBook.swift */; };
+		29B708B5274386FC006B6108 /* DishBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B708B4274386FC006B6108 /* DishBook.swift */; };
 		3013B17A2486E78F002881BC /* RecipeDirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3013B1712486E78F002881BC /* RecipeDirectionsViewController.swift */; };
 		3013B1802486E78F002881BC /* AppIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3013B1772486E78F002881BC /* AppIntentHandler.swift */; };
 		3013B1812486E78F002881BC /* RecipesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3013B1782486E78F002881BC /* RecipesTableViewController.swift */; };
@@ -23,6 +29,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		293DB5C927439E05007E7E68 /* RestaurantIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantIntentHandler.swift; sourceTree = "<group>"; };
+		293DB5CB2743B838007E7E68 /* OrderFoodIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFoodIntentHandler.swift; sourceTree = "<group>"; };
+		29B708AA27438571006B6108 /* restaurants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = restaurants.json; sourceTree = "<group>"; };
+		29B708B0274386DE006B6108 /* RestaurantBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantBook.swift; sourceTree = "<group>"; };
+		29B708B2274386EF006B6108 /* CategoryBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBook.swift; sourceTree = "<group>"; };
+		29B708B4274386FC006B6108 /* DishBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishBook.swift; sourceTree = "<group>"; };
 		3013B1712486E78F002881BC /* RecipeDirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDirectionsViewController.swift; sourceTree = "<group>"; };
 		3013B1772486E78F002881BC /* AppIntentHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIntentHandler.swift; sourceTree = "<group>"; };
 		3013B1782486E78F002881BC /* RecipesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesTableViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +67,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29B708A927438551006B6108 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29B708AA27438571006B6108 /* restaurants.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		3055949524958BE500C8E389 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				3013B1872486E7AC002881BC /* RecipeBook.swift */,
+				29B708B0274386DE006B6108 /* RestaurantBook.swift */,
+				29B708B2274386EF006B6108 /* CategoryBook.swift */,
+				29B708B4274386FC006B6108 /* DishBook.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -87,6 +110,8 @@
 			children = (
 				3013B1772486E78F002881BC /* AppIntentHandler.swift */,
 				305594912493EF9500C8E389 /* IntentHandler.swift */,
+				293DB5C927439E05007E7E68 /* RestaurantIntentHandler.swift */,
+				293DB5CB2743B838007E7E68 /* OrderFoodIntentHandler.swift */,
 			);
 			path = "Intent Handler";
 			sourceTree = "<group>";
@@ -119,6 +144,7 @@
 				3055949724958C0800C8E389 /* Model */,
 				3055949624958BF400C8E389 /* View Controllers */,
 				BF7E4032274380B300D3B2AC /* Helpers */,
+				29B708A927438551006B6108 /* Resources */,
 				6092636F2481E98500D8F593 /* Main.storyboard */,
 				3013B193248721B9002881BC /* Assets.xcassets */,
 				3013B18E248708D5002881BC /* Intents.intentdefinition */,
@@ -210,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B708AB27438571006B6108 /* restaurants.json in Resources */,
 				609263762481E98600D8F593 /* LaunchScreen.storyboard in Resources */,
 				609263712481E98500D8F593 /* Main.storyboard in Resources */,
 				3013B194248721B9002881BC /* Assets.xcassets in Resources */,
@@ -225,13 +252,18 @@
 			files = (
 				305594922493EF9500C8E389 /* IntentHandler.swift in Sources */,
 				3013B1802486E78F002881BC /* AppIntentHandler.swift in Sources */,
+				29B708B5274386FC006B6108 /* DishBook.swift in Sources */,
 				3013B190248708D5002881BC /* Intents.intentdefinition in Sources */,
 				3013B1812486E78F002881BC /* RecipesTableViewController.swift in Sources */,
 				BF7E4034274380C500D3B2AC /* JsonLoader.swift in Sources */,
 				3013B17A2486E78F002881BC /* RecipeDirectionsViewController.swift in Sources */,
+				293DB5CA27439E05007E7E68 /* RestaurantIntentHandler.swift in Sources */,
 				3013B18C2486E7AC002881BC /* RecipeBook.swift in Sources */,
+				29B708B1274386DE006B6108 /* RestaurantBook.swift in Sources */,
 				3013B1822486E78F002881BC /* RecipeDetailViewController.swift in Sources */,
 				6092636A2481E98500D8F593 /* AppDelegate.swift in Sources */,
+				29B708B3274386EF006B6108 /* CategoryBook.swift in Sources */,
+				293DB5CC2743B838007E7E68 /* OrderFoodIntentHandler.swift in Sources */,
 				6092636C2481E98500D8F593 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,7 +423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = RecipeAssistant/RecipeAssistant.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4X938UQG45;
 				INFOPLIST_FILE = RecipeAssistant/Info.plist;
 				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -415,7 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = RecipeAssistant/RecipeAssistant.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4X938UQG45;
 				INFOPLIST_FILE = RecipeAssistant/Info.plist;
 				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
