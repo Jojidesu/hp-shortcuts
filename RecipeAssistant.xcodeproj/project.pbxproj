@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		293DB5CA27439E05007E7E68 /* RestaurantIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293DB5C927439E05007E7E68 /* RestaurantIntentHandler.swift */; };
 		293DB5CC2743B838007E7E68 /* OrderFoodIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293DB5CB2743B838007E7E68 /* OrderFoodIntentHandler.swift */; };
+		293DB5CE27440B01007E7E68 /* NSUserActivity+IntentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293DB5CD27440B01007E7E68 /* NSUserActivity+IntentData.swift */; };
 		29B708AB27438571006B6108 /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 29B708AA27438571006B6108 /* restaurants.json */; };
 		29B708B1274386DE006B6108 /* RestaurantBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B708B0274386DE006B6108 /* RestaurantBook.swift */; };
 		29B708B3274386EF006B6108 /* CategoryBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B708B2274386EF006B6108 /* CategoryBook.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		293DB5C927439E05007E7E68 /* RestaurantIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantIntentHandler.swift; sourceTree = "<group>"; };
 		293DB5CB2743B838007E7E68 /* OrderFoodIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFoodIntentHandler.swift; sourceTree = "<group>"; };
+		293DB5CD27440B01007E7E68 /* NSUserActivity+IntentData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserActivity+IntentData.swift"; sourceTree = "<group>"; };
 		29B708AA27438571006B6108 /* restaurants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = restaurants.json; sourceTree = "<group>"; };
 		29B708B0274386DE006B6108 /* RestaurantBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantBook.swift; sourceTree = "<group>"; };
 		29B708B2274386EF006B6108 /* CategoryBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBook.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				609263692481E98500D8F593 /* AppDelegate.swift */,
 				6092636B2481E98500D8F593 /* SceneDelegate.swift */,
+				293DB5CD27440B01007E7E68 /* NSUserActivity+IntentData.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				6092636A2481E98500D8F593 /* AppDelegate.swift in Sources */,
 				29B708B3274386EF006B6108 /* CategoryBook.swift in Sources */,
 				293DB5CC2743B838007E7E68 /* OrderFoodIntentHandler.swift in Sources */,
+				293DB5CE27440B01007E7E68 /* NSUserActivity+IntentData.swift in Sources */,
 				6092636C2481E98500D8F593 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

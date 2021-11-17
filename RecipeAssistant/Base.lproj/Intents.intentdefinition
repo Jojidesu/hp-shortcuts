@@ -816,7 +816,7 @@
 			<key>INIntentDescriptionID</key>
 			<string>CqhqgQ</string>
 			<key>INIntentLastParameterTag</key>
-			<integer>10</integer>
+			<integer>12</integer>
 			<key>INIntentManagedParameterCombinations</key>
 			<dict>
 				<key>dish,quantity,restaurant</key>
@@ -848,8 +848,6 @@
 			<dict>
 				<key>dish,quantity,restaurant</key>
 				<dict>
-					<key>INIntentParameterCombinationIsLinked</key>
-					<true/>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
@@ -915,7 +913,7 @@
 							<key>INIntentParameterPromptDialogCustom</key>
 							<true/>
 							<key>INIntentParameterPromptDialogFormatString</key>
-							<string>Just to confirm, you wanted ${quantity}’?</string>
+							<string>Just to confirm, you wanted ${quantity}?</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
 							<string>bCQnK5</string>
 							<key>INIntentParameterPromptDialogType</key>
@@ -1110,6 +1108,8 @@
 					<integer>7</integer>
 					<key>INIntentParameterType</key>
 					<string>Object</string>
+					<key>INIntentParameterWindowSize</key>
+					<integer>3</integer>
 				</dict>
 			</array>
 			<key>INIntentResponse</key>
@@ -1128,7 +1128,7 @@
 					</dict>
 					<dict>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>Your order from ${restaurant} has ${quantity} of ${dish}</string>
+						<string>Your bill is ${price} for  ${quantity} ${dish} from ${restaurant}</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>QpZ8We</string>
 						<key>INIntentResponseCodeName</key>
@@ -1136,19 +1136,9 @@
 						<key>INIntentResponseCodeSuccess</key>
 						<true/>
 					</dict>
-					<dict>
-						<key>INIntentResponseCodeFormatString</key>
-						<string>Continue your order with Foodpanda!</string>
-						<key>INIntentResponseCodeFormatStringID</key>
-						<string>OlYnUY</string>
-						<key>INIntentResponseCodeName</key>
-						<string>showApp</string>
-						<key>INIntentResponseCodeSuccess</key>
-						<true/>
-					</dict>
 				</array>
 				<key>INIntentResponseLastParameterTag</key>
-				<integer>10</integer>
+				<integer>13</integer>
 				<key>INIntentResponseParameters</key>
 				<array>
 					<dict>
@@ -1200,6 +1190,20 @@
 						<integer>6</integer>
 						<key>INIntentResponseParameterType</key>
 						<string>Object</string>
+					</dict>
+					<dict>
+						<key>INIntentResponseParameterDisplayName</key>
+						<string>Price</string>
+						<key>INIntentResponseParameterDisplayNameID</key>
+						<string>b2e5Qb</string>
+						<key>INIntentResponseParameterDisplayPriority</key>
+						<integer>4</integer>
+						<key>INIntentResponseParameterName</key>
+						<string>price</string>
+						<key>INIntentResponseParameterTag</key>
+						<integer>13</integer>
+						<key>INIntentResponseParameterType</key>
+						<string>Decimal</string>
 					</dict>
 				</array>
 			</dict>

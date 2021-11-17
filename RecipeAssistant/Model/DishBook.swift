@@ -32,7 +32,7 @@ struct DishModel: Decodable {
 
     var dish: Dish {
         let intentModel = Dish(identifier: identifier, display: displayString)
-        intentModel.price = price as NSNumber?
+        intentModel.price = NSDecimalNumber(decimal: price ?? 0)
         return intentModel
     }
 }
